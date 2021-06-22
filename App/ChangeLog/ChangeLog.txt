@@ -1,0 +1,165 @@
+----------------RUS----------------
+Version 0.001-Добавил возможность читать файл и скачивать его (Пока скачиваеться именно определённый файл-Тоесть не тот который мы выбрали).Изменил изображение.
+Version 0.001 
+		+Добавил возможность читать
+		+Добавил возможность скачивать файл(Определённый)
+
+Version 1.01- Добавил foooter там сделал копирайт,добавил about в него добавил лого и номер билда.Изменил общий вид увеличил размер блока расширения, картинку по центру поставил и тд.Добавил дополнительные textarea которые нормально работают берут нормально файлы и нормально ищют (пока ещё в ручную написанные) слова и выделяют их.Добавились полноценные кнопки для скачивания тоесть теперь мы тот файл который выбрали тот же и скачали.Теперь есть поиск который мы сами вбиваем.Добавил Название фирмы и добавил иконки компании.
+	Version 0.01-
+			+Добавил атрибут footer с копирайтом
+			+Добавил about в него добавил лого и номер билда
+			+Изменил общий дизайн
+			+Добавил доп TextArea
+			+Добавил возможность скачивать файл(Тот который у нас выбран)
+			+Добавил иконки Компании
+			+Добавил название фирмы
+
+Version 1.02(TEST)-Разобрал всё по папкам чтоб выглядело приятнее,Разобрал функции чтоб небыло большого нагромождения,Исправил ошибку с именнем файла,Добавил скрип на изменение темы,добавил кнопку поиска и функции для неё (пока не заработало).Сделал структуру в html файле более понятнее и удобнее,Добавил функцию смены темы на тёмную мягкую и светлую(Надо это делать до того как вводишь данные).Добавил кнопки на смену цвета фокуса при поиске слова(Пока без функции).Добавил функцию и кнопку для того чтоб скрыть или показать блок с настройками.Есть функции поиска и настроек но их не пропускает защита гугла пробую сделать чтоб пропускал.
+	Version 0.02(TEST)
+			+Улучшил расположение файлов в расширении
+			+Сделал фунции с поиском без нагромождений
+			+Добавил скрипт на изменение темы
+			+Добавил кнопку поиска
+			+Добавил функцию поиска
+			+Добавил новые атрибуты в html
+			+Добавил кнопки смены фокуса
+			+Добавил функции для смены темы
+			+Добавил кнопки которые меняют тему
+			+Добавил функции скрытие настроек
+			+Добавил кнопку настроек
+		BagFix
+			+Исправил ошибку с именем файла
+
+
+Version 1.03(TEST)-Добавил возможность выбора настроек а так же сделал менюшку чтоб можно было выбрать Настройки или поиск.Разделил некоторые скрипты чтоб не было кучей в одной папке.Избравился от проблемы с addEventListener(Сейчас заменяют eval).Доработал кнопку скачивание теперь не требуеться файл в каждой кнопке выбора  они работают отдельно друг от друга(Правда это три функции).Теперь ненужные не выбранные элементы становяться невидимыми и теперь когда нажимаешь на другое меню когда у тебя уже открыто -Открытое закрываеться а которое хотим открыть открываеться (Не накладываються друг на друга)
+	Version 0.03(TEST)
+			+Добавил меню с настройками и поиском
+			+Добавил функции открытие и закрытие менюшки
+			+Разобрал скрипты в отдельные файлы js
+			+Добавил скрипты для скачки списка
+			-Удалил все старые скрипты для кнопок поиска
+		BagFix
+			+Исправил ошибку с кнопкой для поиска
+	Version 0.04(TEST)
+			+Изменил ChangeLog для более удобного поиска
+			+Сделал сортировку папок в расширении
+			-Удалил старую функции поиска
+			+Добавил новую функцию по поиску атрибутов(Дописать надо)
+			+Добавил переменные на основные атрибуты
+			+Добавил кнопку поиска по атрибутам(Ищет пока )
+			+Добавил border разного цвета для каждого блока чтоб когда буду скейлить было видно размер каждого блока
+	Version 0.05(TEST)
+			+Добавил переменные кнопок (Для обхода защиты)
+			+Добавил переменную смены цвета
+			+Добавил функции для кнопок смены цвета
+			+Добавил функцию по смену фокуса
+			+Добавли функцию по поиску нужных атрибутов	
+		BagFix
+			+Исправил баг с нерабочими кнопками (Теперь кнопки работают)
+			+Исправил баг с Не изменение переменной в функции
+			+Исправлен баг с не изменение цвета при выборе
+			+Исправлен баг в расширении открытие меню(При переносе сломалась меню)
+			+Исправил баг при переносе по поиску атрибутов
+
+	Version 0.06
+			+Перенёс все функции из тестовой версии в рабочию версию(Всё ок перенеслось)
+			+Добавил scale на изменение размера экрана(Проверить надо)
+			+Сделал цвета более мягкие(Не вырвеглазные)
+			+Добавил кнопку на добавлении нового textarea
+			+Добавил кнопку удаление добавленных div(пока и кнопок)
+			-Убрал подсказки по поиску атрибута
+		BagFix
+			+Исправил баг с появлением надписи каждый раз при поиске атрибута
+			+Исправил баг который не давал менять ни тему ничего не давал делать после нажатие на кнопку поиска
+	Version 0.07
+			+Добавил блокам радиус и цвет для крастоты
+			+Сделал кнопки меню нормлаьными кнопками а не одной плиткой как в прошлой версии
+			+Функция поиска на активной странице
+			+Сделал тёмную тему по умолчанию
+			-Убрал лишний код от старых функций
+			+Добавил возможность закрыть меню
+			+Добавил функции удаление фокуса на отдельной кнопке
+			+Добавил главный блок в html код
+			+Добавил смену цвета
+			+Добавил новое меню
+			+Добавил открытие и закрытие новой менюшки
+			+Добавил функции добавление файла и скачивание для второго меню
+			+ДОБАВИЛ ЧТО ВВОДИМ ТО И ИЩЕМ УРААААААААААААА!
+			+Добавел функции смену цвета фокуса как на атрибут так и на текст
+			+Добавил больше цветов
+			-Убрал старую функцию скачки 
+			+Добавил модифицированную функцию для скачки списка(скачиваем список а не файл выбранный нами)
+			+Добавил возможность поиска по атрибутам и классам
+			+Добавил возможность искать слова на всех возможных страницах
+			+Добавил новые менюшки
+			+Запоминает последнее что мы искали слова и атрибуты
+			+Добавил скейл под  размер основного экрана
+			+Атрибуты список работает
+			+Уменьшил код
+			+Красивое сохранение текста
+			+Добавил  подсчёт найденых атрибутов
+	 	BagFix
+			+Исправил баг с списком данных полученных через кнопку выбора файла
+			+Исправил баг с функциями скачки
+			+Исправил баг с функциями чтение файлов
+			+Исправил баг с чем что не давал одновременно пользоваться двумя функциями поиска атрибута и слова
+
+
+----------------Eng----------------
+Version 1.0-Added the ability to read the file and download it (While downloading a specific file, that is, not the one that we have chosen).Change img
+Version 1.0 
+		+ Added the ability to read
+		+ Added the ability to download a file (Defined)
+
+Version 1.01- Added foooter there, made a copyright, added about, inserted the logo and build number into it. Changed the general view, increased the size a block and picture in the center, put it, etc. Added additional textarea that normally work normally take files and normally look for (still handwritten) words and highlight We have added full-fledged download buttons, that is, now we have the file that we selected the same and downloaded.Now there is a search that we drive in. Added the name of the company and added the icons of the company
+	Version 1.02(TEST)
+		+ Improved the location of files in the extension
+		+ Made functions with search without clutter
+		+ Fixed file name error
+		+ Added a script to change the theme
+		+ Added search button
+		+ Added search function
+		+ Added new attributes to html
+		+ Added buttons to change focus
+		+ Added functions to change theme
+		+ Added buttons that change the theme
+		+ Added functions to hide settings
+		+ Added a settings button
+
+
+Version 1.02 (TEST) -Disassembled everything into folders to make it look nicer, Disassemble the functions so that there was no big pile-up, Fixed the error with the file name, Added a script to change the theme, added a search button and functions for it (not working yet). Added the function of changing the theme to dark soft and light. search functions and settings, but they are not allowed by Google protection, I try to do it.
+	Version 1.03(TEST)
+		+ Added a menu with settings and search
+		+ Added functions for opening and closing menus
+		+ Parsed scripts into separate js files
+		+ Fixed bug with button for search
+		+ Added scripts to download the list
+		-Removed all old scripts for search buttons
+Version 1.03 (TEST) -Added the ability to select settings, and also made a menu in which you can select Settings or search. Separated several scripts so that they do not lie in a heap in one folder. Got rid of the problem with addEventListener (now they replace eval). Modified the download button, now you do not need a file in each selection button, they work separately from each other (though these are three functions). Now unnecessary unselected items become invisible, and now when you click on another menu, when you already have an open -Open closed and which we want to open, they open (do not overlap)
+	Version 1.04(TEST)
+		+ Changed ChangeLog for easier search
+		+ Made the sorting of folders in the extension
+		-Removed the old search function
+		+ Added a new function for finding attributes (You need to add it)
+		+ Added variables to the main attributes
+		+ Added a search button by attributes (Searches for now)
+	Version 1.05 (TEST)
+		+ Added variable buttons (to bypass protection)
+		+ Added variable color change
+		+ Added functions for color change buttons
+		+ Added function to change focus
+		+ Added a function to find the desired attributes
+	 BagFix
+		+ Fixed bug with broken buttons (now buttons work)
+		+ Fixed a bug with Not changing a variable in a function
+		+ Fixed a bug with not changing color when selecting
+		+ Fixed a bug in the extension of opening the menu (the menu broke when transferring)
+		+ Fixed bug when switching to attribute search
+	Version 1.06
+		+ Moved all functions from the test version to the production version
+		+ Added to be searched on the page and not in the extension / ** /
+		+ Added a scale to resize the screen / ** /
+		+ Made the colors softer (Not vyvyegazhny)
+	 BagFix
+		+ Fixed a bug with the appearance of the inscription every time when searching for an attribute
+		+ Fixed a bug that did not allow to change any topic and did not allow anything to be done after clicking on the search button

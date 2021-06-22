@@ -1,0 +1,255 @@
+header{
+  /*border: 5px solid red;/*Поля для удобного scale*/
+}
+
+div{
+  /*border: 5px solid yellow;/*Поля для удобного scale*/
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+    /*border: 5px solid black;*//*Поля для удобного scale*/
+}
+img{
+    height: 150px;
+    margin-left: 0%;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 2px 100px -7px rgba(251, 255, 0, 0.96);
+    -moz-box-shadow: 0px 2px 100px -7px rgba(251, 255, 0, 0.96);
+    box-shadow: 0px 2px 100px -7px rgba(251, 255, 0, 0.96);
+}
+input{
+     margin-bottom:1%; 
+     margin-top:3%;
+     /*border: 5px solid green;/*Поля для удобного scale*/
+}
+a{
+     text-decoration: none;      
+}
+body{
+    width: 500px;
+    text-align: center;
+
+}
+textarea{
+    width: 90%;
+    margin-top: 1%;
+   /*border: 3px solid green;/*Поля для удобного scale*/
+}
+
+body {
+  background-color: var(--bg, black);
+  color: var(--bg-text, white);
+  text-align:center;
+}
+article {
+  padding: 50px
+
+}
+article h2 {
+  margin-top: 100px;
+}
+
+/*Стиль блоков с классами*/
+.RED{
+  background:yellow;
+}
+/*Кнопки для смены атрибута фокуса кароче*/
+.Green{
+  padding: 2%;
+  background:green;
+  border-radius: 150%;
+}
+.Yellow{
+  padding: 2%;
+  background:yellow;
+  border-radius: 150%;
+}
+.Red{
+  padding: 2%;
+  background:red;
+  border-radius: 150%;
+  
+}
+.Blue{
+  padding: 2%;
+  background:#0000FF;
+  border-radius: 150%;
+}
+.Pink{
+  padding: 2%;
+  background:#FFC0CB;
+  border-radius: 150%;
+}
+.Orange{
+  padding: 2%;
+  background:#FFA500;
+  border-radius: 150%;
+  
+}
+
+
+.Black{
+  padding: 2%;
+  background:#000000;
+  border-radius: 150%;
+}
+.Purpul{
+  padding: 2%;
+  background:#800080;
+  border-radius: 150%;
+}
+.Turquoise{
+  padding: 2%;
+  background:#40E0D0;
+  border-radius: 150%;
+  
+}
+
+.White{
+  padding: 2%;
+  background:white;
+  border-radius: 150%;
+  
+}
+
+
+
+
+/*Первое меню кста*/
+.Setting1{
+  margin-top: 10px;
+  width: 100%;
+  visibility: hidden;
+  background-color: gray;
+  border-radius: 5%;
+}
+.HidenSearch{
+    visibility: hidden;
+    margin-top: -290px;
+    background-color: gray;
+    border-radius: 10%;
+}
+/*Второй меню кста*/
+.HidenWords{
+  margin-top: -10px;
+  width: 100%;
+  visibility: hidden;
+
+}
+.HidenAtribute{
+  margin-top: -241px;
+  width: 100%;
+  visibility: hidden;
+}
+.Adr{
+  color: black;
+}
+/*Менюшки с настройками*/
+.HideColorAtrb{
+  visibility: hidden;
+}
+.HideColorText{
+   visibility: hidden; 
+   margin-top: -72px; 
+}
+.theme1{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  visibility: hidden;
+}
+.ThemeSet{
+  margin-top: 25px;
+  width: 90%;
+}
+/*Кнопки менюшки*/
+.Set{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  font-size: x-large;
+}
+.SetTabSearch{
+   float: middle;
+  width: 40%;
+  padding: 5px;
+  font-size: x-large;
+}
+.SetAtrThemeText{
+    float: middle;
+    margin-top: 15px;
+  width: 30%;
+  padding: 5px;
+  font-size: x-large;
+
+}
+
+.TAB {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  /*border: 3.5px solid gray;*/
+}
+.TAB  button {
+  background-color: inherit;
+  float: left;
+  /*border: none;*/
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.StandartBlue{
+  background-color:rgb(59, 176, 253);
+  color: white;
+}
+.headlightsGreen{
+  background-color:green;
+  color: white;
+}
+.headlightsYellow{
+  background-color:yellow;
+  color: black;
+}
+.headlightsRed{
+  background-color:red;
+  color: white;
+}
+.click_to_add_block{
+  width: 20%;
+}
+.delete{
+  width: 20%;
+
+}
+.Sabrila{
+width: 15%;
+}
+/*Медиа точки для расширения*/
+@media (max-width : 480px){
+  body{
+    transform: scale(0.2)
+  }
+}
+@media (max-width : 720px){
+  body{
+    transform: scale(0.5)
+  }
+}
+@media (max-width : 1920px){
+  body{
+        transform: scale(1)
+
+  }
+}
+@media (max-width : 1440px){
+  body{
+        transform: scale(0.8)
+  }
+}
+@media (max-width : 2160px){
+  body{
+    transform: scale(1)
+  }
+}
