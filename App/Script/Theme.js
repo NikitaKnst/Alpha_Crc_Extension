@@ -17,18 +17,16 @@ themeBtns.forEach((btn) => {
 function UpdateTheme(UpdateThem) {
   switch(UpdateThem.target.value) {
     case 'dark': /*Делаем кейс с цветами тела и текста*/
-        var ColorBody =  root.style.setProperty('--bg', 'black')/*Меням тему фона*/
-        var ColorText =root.style.setProperty('--bg-text', 'white')/*Меням цвет*/
+      root.style.setProperty('--bg', 'black')/*Меням тему фона*/
+      root.style.setProperty('--bg-text', 'white')/*Меням цвет*/
       break
     case 'calm': /*Делаем кейс с цветами тела и текста*/
-        var ColorBody = root.style.setProperty('--bg', '#B3E5FC')/*Меням тему фона*/
-        var ColorText =root.style.setProperty('--bg-text', 'black')/*Меням цвет*/
+       root.style.setProperty('--bg', '#B3E5FC')/*Меням тему фона*/
+       root.style.setProperty('--bg-text', 'black')/*Меням цвет*/
       break
     case 'light':/*Делаем кейс с цветами тела и текста*/
-        var ColorBody =  root.style.setProperty('--bg', 'white')/*Меням тему фона*/
-        var ColorText = root.style.setProperty('--bg-text', 'black')/*Меням цвет*/
+      root.style.setProperty('--bg', 'white')/*Меням тему фона*/
+      root.style.setProperty('--bg-text', 'black')/*Меням цвет*/
       break
   }
-    chrome.storage.sync.set({ ColorBody });/*Закидываем в local storege google значчение*/ /*СПАСИТЕЛЬ!*/
-    chrome.storage.sync.set({ ColorText });/*Закидываем в local storege google значчение*/ /*СПАСИТЕЛЬ!*/
 }
