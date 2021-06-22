@@ -1,0 +1,37 @@
+{
+  "name": "Alpha CRC List",/*Имя программы*/
+  "description": "We look at your lists and look for the word that you enter in the list and also have the opportunity to download the changed or unchanged list again in the form of txt format",/*Описание расширения*/
+  "version": "0.9",/*Версия программы*/
+  "manifest_version": 3,/*Просто версия манифеста*/
+ "content_scripts": /*Контентные скрипты которые мы выполняем*/
+  [ 
+        {
+            "all_frames": true,/*Работаем со всеми кадрами*/
+            "matches": ["<all_urls>"],/*Чтоб могли работать на всех страницах*/
+            "js":["jquery-3.6.0.min.js"],/*jquery загружаем для работы*/
+            "run_at": "document_end"/*При полной загрузки документа срабатывает jquery*/
+
+        }
+  ],
+
+  /*Большинство API, включая API хранилища , должны быть зарегистрированы в "permissions"поле манифеста, чтобы расширение могло их использовать.*/
+ "permissions": ["storage", "activeTab", "scripting","tabs"],/*Активируем хранилище,активную вкладку, скрипты ну и другие вкладки*/
+ /*Интерфейс*/
+  "action": {
+    "default_popup": "Popur.html",/*Стандартная html первая страница*/
+      /*Тут даём название изображениям и используем изображение*/
+     "default_icon": {/*Стандартные иконки*/
+      "16": "/images/Alpha_Size_16.png",
+      "32": "/images/Alpha_Size_32.png", /*Иконки расширения*/
+      "48": "/images/Alpha_Size_48.png",
+      "128": "/images/Alpha_Size_128.png"
+    }
+  },
+   "icons": {
+    "16": "/images/Alpha_Size_16.png",
+    "32": "/images/Alpha_Size_32.png",
+    "48": "/images/Alpha_Size_48.png",
+    "128": "/images/Alpha_Size_128.png"
+  }
+}
+ 

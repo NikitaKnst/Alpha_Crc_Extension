@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="App/Script/jquery-3.6.0.min.js"></script>
+  	<link rel="stylesheet" href="App/Css/StyleText.css">   
+  	<meta charset="utf-8">
+  </head>
+  <body>
+    <header> 
+      <img src="/images/Alpha_Size_128.png">
+      <h2>Alpha CRC</h2>
+      <h3>Version: 0.9</h3>
+    </header>
+    <main><!--Главный блок-->
+<div class="TAB">
+<button id="MyTabSet" class="Set">Settings</button>
+<button id="MyTabSearch" class="Set">Search</button>
+</div>
+  <div id="Setting1" class="Setting1">
+              <h1>Settings</h1>
+  <button class="SetAtrThemeText" id="AtributeSet">Atributte</button>  
+  <button class="SetAtrThemeText" id="TextSet">Words</button>  
+  <button class="SetAtrThemeText" id="ThemeSet">Theme</button>
+<div id="HideColorAtrb" class="HideColorAtrb"><!--Блок скрытых кнопок цвета атрибута-->
+              <h3>Focus Color Atribute</h3>
+    <button class="Green"  id="AtrbOne" name="Tresh" data-ColorAtribyue="#00FF00"></button>
+    <button class="Yellow"  id="Atrb2" name="Tresh" data-ColorAtribyue="#FFFF33"></button><!--Кнопки для смены фокуса на атрибутов-->
+    <button class="Red" id="Atrb3" name="Tresh" data-ColorAtribyue="#FF0000"></button>
+    <button class="Blue" id="Atrb4" name="Tresh" data-ColorAtribyue="#0000FF"></button>
+    <button class="Pink" id="Atrb5" name="Tresh" data-ColorAtribyue="#FFC0CB"></button>
+    <button class="Orange" id="rAtrb6" name="Tresh" data-ColorAtribyue="#FFA500"></button>
+    <button class="Black" id="Atrb7" name="Tresh" data-ColorAtribyue="#000000"></button>
+    <button class="Purpul" id="Atrb8" name="Tresh" data-ColorAtribyue="#800080"></button>
+    <button class="Turquoise" id="Atrb9" name="Tresh" data-ColorAtribyue="#40E0D0"></button>
+    <button class="White" id="Atrb10" name="Tresh" data-ColorAtribyue="#FFFFFF"></button>
+</div>
+<div id="HideColorText" class="HideColorText"><!--Блок скрытых кнопок цвета текста-->
+        <h3>Focus Color Text</h3>
+    <button class="Green" id="Txt" data-ColorText="#00FF00" name="Tresh2"></button>
+    <button class="Yellow" id="Txt2" data-ColorText="#FFFF33" name="Tresh2"></button><!--Кнопки для смены фокуса на тексте-->
+    <button class="Red" id="Txt3" data-ColorText="#FF0000" name="Tresh2"></button>
+    <button class="Blue" id="Txt4" data-ColorText="#0000FF" name="Tresh2"></button>
+    <button class="Pink" id="Txt5" data-ColorText="#FFC0CB" name="Tresh2"></button>
+    <button class="Orange" id="Txt6" data-ColorText="#FFA500" name="Tresh2"></button>
+    <button class="Black" id="Txt7" data-ColorText="#000000" name="Tresh2"></button>
+    <button class="Purpul" id="Txt8" data-ColorText="#800080" name="Tresh2"></button>
+    <button class="Turquoise" id="Txt9" data-ColorText="#40E0D0" name="Tresh2"></button>
+    <button class="White" id="Txt10" data-ColorText="#FFFFFF" name="Tresh2"></button>
+</div>
+    <div class="theme1" id="theme1"><!--Блок скрытых кнопок темы-->
+      <h3>Theme</h3>
+  <button value="dark" id="dark">Dark theme</button>
+  <button value="calm" id="calm">Calm theme</button>
+  <button value="light" id="light">White theme</button>
+    </div>
+</div>
+<div id="HidenSearch" class="HidenSearch">
+    <h1>Search</h1>
+    <!-------------------------------------Поиск по словам-------------------------------------> 
+    <div class="TabSearch">
+        <button id="MyTabWORDS" class="SetTabSearch">Search Words</button> 
+        <button id="MyTabAtribute" class="SetTabSearch">Search Atribute</button>
+    </div>
+        <div id="HidenWords" class="HidenWords">   
+                                  <h2>Search words</h2>
+          <input type="file" id="ChoiseFilleOne" class="block_to_add">
+        <textarea cols="5" rows="5" type="text" id="searchtxt" name="Text_Area" placeholder="Пишим слово" class="block_to_add"></textarea><!--Textarea для поиска-->
+          <input type="button"  value="Search text" id="SrcText" name="TegSearshButton" class="block_to_add"><!--Кнопка для поиска текста-->
+          <input type='button' value='Download' id="DownloadOne" class="block_to_add"><!--Кнопка для скачивания файла котроый мы выбрали--> 
+          <input type='button' value='Clean Text Focus' id="CleanerText" class="Cleaner"><!--Кнопка для очищение класса (Удаление фокуса)--> 
+        </div> 
+    <!-------------------------------------Поиск по атрибутам внизу с кнопками------------------------------------->
+ <br>
+ <div id="HidenAtribute" class="HidenAtribute">
+                          <h2>Search Atribute</h2>
+              <input type="file" id="ChoiseFilleSecond" class="block_to_add">
+              <textarea cols="5" rows="5" type="text" id="textAreaSecond" name="Text_Area" placeholder="Пишим атрибут" class="block_to_add"></textarea><!--Textarea для поиска-->             
+              <input type="button"  value="Search Atribute" id="TegSearshButton" name="TegSearshButton" class="block_to_add"><!--Кнопка для поиска атрибута-->
+              <input type='button' value='Download' id="DownloadSecond" class="block_to_add"><!--Кнопка для скачивания файла котроый мы выбрали-->
+              <input type='button' value='Clean Atribute Focus' id="CleanerAtribute" class="Cleaner"><!--Кнопка для очищение класса (Удаление фокуса)--> 
+</div>
+</div>
+</div>
+    <!--Copyrighs-->
+  <footer>©Alpha CRC Ltd 1987 – 2021</footer>
+    <!-- End Copyrighs-->
+</main>
+  <!--Script-->
+<script src="App/Script/Popur.js"></script><!--Script для текста в textarea зависит только от id переменной id="Text_Area"  -->
+  <script src="App/Script/Dowload.js"></script><!--Script для скачки Зависит только от имени переменной textarea   id="ChoiseFille"||id="textArea" -->    
+    <script src="App/Script/Theme.js"></script><!--Script для смены темы зависит от id="dark"||id="calm"||id="light" переменных кнопок-->
+      <script src="App/Script/hide.js"></script><!--Script для того чтоб спрятать меню зависит от id="MyTabSet"||id="MyTabSearch" переменных кнопок-->
+          <script src="App/Script/Search_Clean_AddStyle/Color.js"></script><!--Script добавляем стиль на странцу если его не было-->
+            <script src="App/Script/Search_Clean_AddStyle/DeleteAllClass.js"></script><!-- Test Function add class  word--> 
+              <script src="App/Script/Search_Clean_AddStyle/OldSearchAndSaver.js"></script><!-- Test Function add class  word--> 
+                <script src="App/Script/Search_Clean_AddStyle/SaverLastWrite.js"></script><!-- Test Function add class  word--> 
+</body>
+</html>
