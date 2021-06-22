@@ -28,9 +28,7 @@ function SearchAtributeFunc(){ /*Для успрощённой работы с �
                 var searchAtrb1=document.querySelectorAll(TEXTTEST2)/*Ищем атрибут*/
                 var AtributeSaver=TEXTTEST/*Закидываем в локальное хранилище хрома АТРИБУТЫ того что мы в последний раз вписывали*/  
             chrome.storage.sync.set({ AtributeSaver });/*Сохраняем переменную в local google chrome*/
-                        console.log("FRST:"+TEXTTEST2)
                 var elementWithAttribute = document.querySelectorAll('[' + TEXTTEST2 + ']');/* search Atribut*/
-                            console.log("SECND:"+TEXTTEST2)
                     console.log(elementWithAttribute)/*Помощник*/
                 var QualAtrb=elementWithAttribute.length; /*Считаем кол-во найденных атрибутов*//*Работает*/
                     console.log("Quantity Atribut:"+QualAtrb)/*Кол-во найденных атрибутов в консоле*/
