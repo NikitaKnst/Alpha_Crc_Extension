@@ -1,7 +1,7 @@
 {
   "name": "Alpha CRC List",/*Имя программы*/
   "description": "We look at your lists and look for the word that you enter in the list and also have the opportunity to download the changed or unchanged list again in the form of txt format",/*Описание расширения*/
-  "version": "0.9",/*Версия программы*/
+  "version": "1.0",/*Версия программы*/
   "manifest_version": 3,/*Просто версия манифеста*/
  "content_scripts": /*Контентные скрипты которые мы выполняем*/
   [ 
