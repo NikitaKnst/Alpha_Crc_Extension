@@ -5,6 +5,8 @@
 Описание: Расширение нужна для поиска атрибута и слов на странице.
 Время разработки:2 месяца.
 Код состоит из JavaScript 73.7%  HTML 16.5% CSS 9.8%
+	Работа с расширением
+Для поиска определённого слово нажимаем на иконку расширения нажимаем "Search" дальше "Search Words" либо сами вводим слово либо выбираем файл где есть это слово и нажимаем кнопку "Search text" и наше слово выделяеться по по умолчанию цвет выделение белый.В "Settings" мы можем поменять цвет в реальном времени (Поиск работает только в одну строку).С атрибутами так же тоесть нажимаем "Search" дальше "Search Atributte" и вводим слово. Для удаление выделение с атрибута или слова нажимаем кнопку "Clean Atribute Focus" или "Clean text Focus". Список или то что мы написали в поиске мы можем скачать на кнопку "Download". 
 	Установка
 Для установки надо скачать Zip расширения переходим по этой ссылке: https://github.com/NikitaKnst/Alpha_Crc_Extension
 Нажимаем на кнопку "Code" - "Код" и дальше нажимаем "Download ZIP" - "Скачать ZIP". Открываем zip в папке Dowloads название zip "Extension-modify-main.zip". В верхнем меню нажимаем кнопку Extract to выбераем место где у нас будет находиться папка с расширениям потом нажимаем Ok.
@@ -37,6 +39,8 @@ Version:1.00.
 Description: Extensions for finding attributes and words on the page.
 Development time:2 month.
 The code consists of JavaScript 87.2%  HTML 9.8% CSS 3.0%
+	Working with the extension
+To search for a specific word, click on the extension icon, click "Search" next "Search Words" or enter the word yourself or select the file where this word is and click the "Search text" button. We can change the color in real time. To remove a selection from an attribute, either press the "Clean Atribute Focus" or "Clean text Focus" button. The list or what we have written in the search, we can download on the "Download" button.
 	Install
 To install, you need to download the Zip extension, follow this link: https://github.com/NikitaKnst/Alpha_Crc_Extension
 Click on the "Code" button and then click on "Download ZIP". Open the zip in the Dowloads folder zip name "Extension-modify-main.zip". In the top menu, click the Extract to button, select the place where we will have a folder with extensions, then click Ok.
